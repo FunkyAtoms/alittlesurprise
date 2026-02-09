@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Special Letter</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</head>
+<body>
+    <div id="flash-overlay"></div>
+
+    <button id="initial-btn">Open</button>
+
+    <div class="envelope-wrapper" id="envelopeWrapper">
+        <div class="envelope">
+            <div class="flap"></div>
+            <div class="letter">
+                <p class="question">It's almost Valentine's and I want to ask you... will you be my valentine my little baby honeybunch sugarplum mwah mwah mwah?</p>
+                <div class="buttons">
+                    <button id="yes-btn" class="choice">Yes</button>
+                    <button id="no-btn" class="choice">No</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="success-screen">
+        <h1>Yay! ❤️</h1>
+        <p>Your confirmation has been sent.</p>
+    </div>
+
+    <audio id="bg-music" loop>
+        <source src="dinner_for_two.mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
